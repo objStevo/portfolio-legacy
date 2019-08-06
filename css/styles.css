@@ -1,0 +1,96 @@
+body {
+  display: flex;
+  flex-direction: column;
+  height: 125vh;
+  margin: 0;
+
+}
+
+.landingPage-1 {
+  background-color: #f9f6f2;
+  align-items: stretch;
+  height: 100vh;
+  text-align: center;
+  padding-left: 0;
+  padding-right: 0;
+}
+
+.landingPage-2 {
+  background-color: #BEC5AD;
+  height: 25vh;
+  text-align: center;
+}
+
+.name {
+  color: #57886C;
+  font-size: 6.4rem;
+  margin-top: 20vh;
+  margin-bottom: 0;
+  font-family: 'Mr De Haviland', cursive;
+  font-weight: normal;
+  line-height: 1;
+}
+.name-sub {
+  color: #4E5340;
+  margin: 0;
+  font-family: 'Darker Grotesque', sans-serif;
+  font-size: 2.5rem;
+  line-height: 1;
+}
+
+.plant-img {
+  width: 20%;
+  padding-top: 12vh;
+}
+.profile-img {
+  width: 10vh;
+}
+
+.about-me {
+  color: #f9f6f2;
+  font-family: 'Darker Grotesque', sans-serif;
+  font-size: 30px;
+  position: absolute;
+  width: 50%;
+  margin: 13vh auto 0 auto;
+  left: 20vh;
+  font-weight: lighter;
+}
+
+.emphasize {
+  font-size: 90px;
+  line-height: 1px;
+}
+
+.motto {
+  display: inline-block;
+  font-size: 50px;
+  font-family: 'Darker Grotesque', sans-serif;
+  color: #f9f6f2;
+  margin-left: 10%
+}
+
+.arrow {
+  margin: 0 10% 0 0;
+  font-size: 70px;
+  display: inline-block;
+  color: #f9f6f2;
+  width: 100px;
+}
+.mynav {
+
+  background-color: #f9f6f2;
+  width: 100%;
+  padding-top: 0;
+}
+.nav-link {
+  color: #4E5340;
+  font-family: 'Darker Grotesque', sans-serif;
+  font-size: 1.3rem;
+}
+.navbar-brand {
+  padding-top: 0;
+}
+.nav-item {
+  padding: 0 10px;
+}
