@@ -3,23 +3,40 @@ body {
   flex-direction: column;
   height: 125vh;
   margin: 0;
+  text-align: center;
 
 }
+ul {
+  list-style: none;
+  padding-bottom: 0;
+  text-align: left;
+  font-family: 'Darker Grotesque', sans-serif;
+  font-size: 1.5rem;
+  margin-bottom: 0;
+}
+li {
+  margin-bottom: 0;
+}
+p {
+  margin-bottom: 0;
+  font-size: 1.5rem;
+  line-height: 1;
+  font-weight: bold;
+}
+h2 {
+  font-weight: bold;
+  font-family: 'Darker Grotesque', sans-serif;
+  font-size: 3rem;
 
+}
 .landingPage-1 {
   background-color: #f9f6f2;
   align-items: stretch;
-  height: 100vh;
   text-align: center;
   padding-left: 0;
   padding-right: 0;
 }
 
-.landingPage-2 {
-  background-color: #BEC5AD;
-  height: 25vh;
-  text-align: center;
-}
 
 .name {
   color: #57886C;
@@ -41,6 +58,7 @@ body {
 .plant-img {
   width: 20%;
   padding-top: 12vh;
+  padding-bottom: 1.5vh;
 }
 .profile-img {
   width: 10vh;
@@ -82,15 +100,56 @@ body {
   background-color: #f9f6f2;
   width: 100%;
   padding-top: 0;
+  text-align: center;
 }
-.nav-link {
-  color: #4E5340;
-  font-family: 'Darker Grotesque', sans-serif;
-  font-size: 1.3rem;
+.navbar {
+  background-color: #f9f6f2!important;
 }
 .navbar-brand {
   padding-top: 0;
 }
 .nav-item {
   padding: 0 10px;
+}
+.nav-link {
+  color: #4E5340;
+  font-family: 'Darker Grotesque', sans-serif;
+  font-size: 1.3rem;
+}
+.navbar-toggler-icon {
+  color: #BEC5AD;
+}
+/* Quick skills page */
+.landingPage-2 {
+  background-color: #BEC5AD;
+  text-align: center;
+  font-family: 'Darker Grotesque', sans-serif;
+  padding: 5% 15%;
+}
+.skills-col {
+  color: #f9f6f2;
+  padding: 15px 30px;
+
+}
+.icon {
+  font-size: 3rem;
+  color: #4E5340;
+}
+
+.icon:hover {
+  color: #f9f6f2;
+}
+
+.bottom-tab {
+  font-size: 1.3rem;
+  font-family: 'Darker Grotesque', sans-serif;
+}
+.copyright-col {
+  font-size: 1.3rem;
+  font-family: 'Darker Grotesque', sans-serif;
+  padding: 0;
+  color: #4E5340;
+}
+.navbar-light .navbar-nav .nav-link {
+  color: #4E5340;
 }
