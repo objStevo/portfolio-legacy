@@ -162,13 +162,48 @@ h2 {
   font-size: 1.3rem;
   font-weight: normal;
 }
-.icon-seed {
-  font-size: 3rem;
+.icon-seed-1 {
+  font-size: 1rem;
   color: #57886C;
-  position: absolute;
-  right: 5%;
+  position: relative;
+  right: 20%;
+  bottom: 20%;
 }
 
+.icon-seed-2 {
+  font-size: 1rem;
+  color: #BEC5AD;
+  position: relative;
+  right: 10%;
+  bottom: 30%;
+}
+.icon-seed-3 {
+  font-size: 1rem;
+  color: #57886C;
+  position: relative;
+  left: 18%;
+  bottom: 21%;
+}
+.icon-seed-4 {
+  font-size: 1rem;
+  color: #BEC5AD;
+  position: relative;
+  left: 10%;
+  bottom: 30%;
+}
+.icon-seed-5 {
+  font-size: 1rem;
+  color: #57886C;
+  position: relative;
+  left: 15%;
+  bottom: 10%;
+}
+.icon-seed-6 {
+  font-size: 1rem;
+  color: #57886C;
+  position: relative;
+  top: 300px;
+}
 .plant-img-side {
   margin-bottom: 0;
   margin-top: 13%;
