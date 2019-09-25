@@ -1,0 +1,57 @@
+{
+  {
+    "repoTitle": "Applied Mathematics",
+    "projects": [{
+        "projectTitle": "Project-1 128A",
+        "description": "This project includes cubic.m, a MATLAB file containing cubic root-finder and imaginaryUnits.m, a MATLAB file containing bivariate Newton's method.",
+        "githubLink": "coming soon",
+        "imageLink": "coming soon"
+      },
+      {
+        "projectTitle": "Project-2 128A",
+        "description": "Euler.m is a MATLAB file containing my implementation of the Euler method, for problem 1. RungeKutta.m is a MATLAB file containing my implementation of the classical RK4 method, for problem 2. Lastly, the graph generator for the 4 plots for question 3, one plot for each of N = 10, 100, 1000, 10000, with the exact solution, the Euler method solution, and the RK4 solution plotted together.",
+        "githubLink": "coming soon",
+        "imageLink": "coming soon"
+      },
+      {
+        "projectTitle": "Project-1 128B",
+        "description": "This function tries to obtain an approximation to the solution of Ax=b by means of the Gauss-Seidel algorithm. Inputs: n = size A is an n x n matrix b is a vector of size n x0 is a first guess for the answer, so is a vector of size n maxit is the maximum number of iterations that should be done. rtol is the the tolerance for the residual, i.e. your iteration should stop once the size of the residual is smaller than rtol. %Output: x is the approximate solution produced by the algorithm r is the residual for the approximate solution x",
+        "githubLink": "coming soon",
+        "imageLink": "coming soon"
+      },
+      {
+        "projectTitle": "Project-1 128B",
+        "description": "This function tries to obtain an approximation to the solution of Ax=b by means of the Gauss-Seidel algorithm. Inputs: n = size A is an n x n matrix b is a vector of size n x0 is a first guess for the answer, so is a vector of size n maxit is the maximum number of iterations that should be done. rtol is the the tolerance for the residual, i.e. your iteration should stop once the size of the residual is smaller than rtol. %Output: x is the approximate solution produced by the algorithm r is the residual for the approximate solution x",
+        "githubLink": "coming soon",
+        "imageLink": "coming soon"
+      }
+    ]
+  }, {
+    "repoTitle": "Cracking the Coding Interview Solutions",
+    "projects": [{
+        "projectTitle": "Project-1 128A",
+        "description": "This project includes cubic.m, a MATLAB file containing cubic root-finder and imaginaryUnits.m, a MATLAB file containing bivariate Newton's method.",
+        "githubLink": "coming soon",
+        "imageLink": "coming soon"
+      },
+      {
+        "projectTitle": "Project-2 128A",
+        "description": "Euler.m is a MATLAB file containing my implementation of the Euler method, for problem 1. RungeKutta.m is a MATLAB file containing my implementation of the classical RK4 method, for problem 2. Lastly, the graph generator for the 4 plots for question 3, one plot for each of N = 10, 100, 1000, 10000, with the exact solution, the Euler method solution, and the RK4 solution plotted together.",
+        "githubLink": "coming soon",
+        "imageLink": "coming soon"
+      },
+      {
+        "projectTitle": "Project-1 128B",
+        "description": "This function tries to obtain an approximation to the solution of Ax=b by means of the Gauss-Seidel algorithm. Inputs: n = size A is an n x n matrix b is a vector of size n x0 is a first guess for the answer, so is a vector of size n maxit is the maximum number of iterations that should be done. rtol is the the tolerance for the residual, i.e. your iteration should stop once the size of the residual is smaller than rtol. %Output: x is the approximate solution produced by the algorithm r is the residual for the approximate solution x",
+        "githubLink": "coming soon",
+        "imageLink": "coming soon"
+      },
+      {
+        "projectTitle": "Project-1 128B",
+        "description": "This function tries to obtain an approximation to the solution of Ax=b by means of the Gauss-Seidel algorithm. Inputs: n = size A is an n x n matrix b is a vector of size n x0 is a first guess for the answer, so is a vector of size n maxit is the maximum number of iterations that should be done. rtol is the the tolerance for the residual, i.e. your iteration should stop once the size of the residual is smaller than rtol. %Output: x is the approximate solution produced by the algorithm r is the residual for the approximate solution x",
+        "githubLink": "coming soon",
+        "imageLink": "coming soon"
+      }
+    ]
+  }
+}
