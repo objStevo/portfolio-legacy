@@ -127,6 +127,7 @@ h2 {
 .copyright-col {
   padding: 0;
   color: #4E5340;
+  text-align: right;
 }
 
 .navbar-light .navbar-nav .nav-link {
@@ -153,27 +154,35 @@ h2 {
   padding: 5% 10%;
 }
 .solutions-tree {
-  width: 20%;
+  width: 30%;
   padding-top: 3%;
 }
 .solutions-title {
   color: #4E5340;
   font-family: 'Darker Grotesque', sans-serif;
+  font-size: 360%;
+  margin-bottom: 5%;
 }
 .subSolutions-title{
   color: #fff;
+  text-align: left;
+  padding-top: 15%;
+  font-size: 2.2rem;
 }
 .suitcase-background{
   border-radius: 50%;
   padding: 8%;
   background-color: #fff;
   display: inline-block;
-  text-align: left;
+  text-align: center;
+  margin-left: 20%;
 }
 .suitcase-img{
   width: 20vh;
   height: 20vh;
 }
-.solutions-landingPage2{
-
+/* solutions-page -3 */
+.solutions-page-3{
+  height: 25vh;
+  background-color: #3A2E39;
 }
