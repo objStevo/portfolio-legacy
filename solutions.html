@@ -4,7 +4,7 @@
 <head>
   <meta charset="utf-8">
   <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
-  <link href="https://fonts.googleapis.com/css?family=Darker+Grotesque|EB+Garamond|Mr+De+Haviland&display=swap" rel="stylesheet">
+  <link href="https://fonts.googleapis.com/css?family=Darker+Grotesque|Montserrat:400,900|Mr+De+Haviland&display=swap" rel="stylesheet">
   <link rel="icon" type="image/png" href="./content/pinetrees-flaticon-large.png">
   <script src="https://kit.fontawesome.com/70290da503.js"></script>
   <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
@@ -45,18 +45,18 @@
       <section class="solutions-page-1">
         <div class="container-fluid">
           <div class="row justify-content-md-center">
-            <div class="col">
-              <img src="./content/forest.png" alt="solutions-tree" class="solutions-tree">
+
+            <div class="col solutions-tree-left">
+              <img src="./content/palm-tree-left.png" alt="solutions-tree" class="solutions-tree">
             </div>
-            <div class="col solutions-landingPage">
-              <h1 class="solutions-title">My solutions.</h1>
+            <div class="col-4 solutions-landingPage">
+              <h1 class="solutions-title">Solutions</h1>
             </div>
-            <div class="col">
-              <img src="./content/forest.png" alt="solutions-tree" class="solutions-tree">
+            <div class="col solutions-tree-right">
+              <img src="./content/palm-tree-right.png" alt="solutions-tree" class="solutions-tree">
             </div>
           </div>
         </div>
-
       </section>
     </div>
   </section>
@@ -69,7 +69,7 @@
           </div>
         </div>
         <div class="col">
-          <h2>Cracking the Coding Interview</h2>
+          <h2>Portfolio Source Code</h2>
           <h1 class="subSolutions-title">Check out the source code to my portfolio. Stack includes: HTML5, CSS, Javascript. As well as the following libraries: jquery, bootstrap.</h1>
         </div>
       </div>
@@ -77,15 +77,36 @@
   </section>
   <section class="solutions-page-3">
     <div class="container-fluid">
-      <div class="row justify-content-md-start">
-        <div class="col">
-          <h1 class="subSolutions-title">Follow my progress as I build my portfolio.CTCI</h1>
-        </div>
-        <div class="col">
-          <div class="suitcase-background">
-            <img class="suitcase-img" src="./content/ctci.jpg" alt="briefcase-img">
+      <div class="carousel slide" data-ride="carousel">
+        <div class="carousel-inner">
+          <div class="carousel-item active">
+            <div class="row justify-content-md-start">
+              <div class="col solutions-landingPage2">
+                <div class="suitcase-background">
+                  <img class="suitcase-img" src="./content/briefcase-big.png" alt="briefcase-img">
+                </div>
+              </div>
+              <div class="col">
+                <h2>Portfolio Source Code</h2>
+                <h1 class="subSolutions-title">Check out the source code to my portfolio. Stack includes: HTML5, CSS, Javascript. As well as the following libraries: jquery, bootstrap.</h1>
+              </div>
+            </div>
+          </div>
+          <div class="carousel-item">
+            <h1>Hello second</h1>
+          </div>
+          <div class="carousel-item">
+            <h1>Hello thirdt</h1>
           </div>
         </div>
+        <a class="carousel-control-prev" href="#carouselExampleControls" role="button" data-slide="prev">
+          <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+          <span class="sr-only">Previous</span>
+        </a>
+        <a class="carousel-control-next" href="#carouselExampleControls" role="button" data-slide="next">
+          <span class="carousel-control-next-icon" aria-hidden="true"></span>
+          <span class="sr-only">Next</span>
+        </a>
       </div>
     </div>
 
@@ -99,24 +120,37 @@
           </div>
         </div>
         <div class="col">
-          <h1 class="subSolutions-title">Follow my progress as I build my portfolio.</h1>
+          <h1 class="subSolutions-title">Test my APIs.</h1>
         </div>
       </div>
     </div>
   </section>
   </section>
   <section class="solutions-page-5">
-    <div class="container-fluid">
-      <div class="row justify-content-md-start">
-        <div class="col">
-          <h1 class="subSolutions-title">Follow my progress as I build my portfolio.</h1>
-        </div>
-        <div class="col">
-          <div class="suitcase-background">
-            <img class="suitcase-img" src="./content/briefcase-big.png" alt="briefcase-img">
+    <div class="container-fluid simon-game">
+      <h1 id="level-title">Press A Key to Start</h1>
+      <div class="container">
+        <div class="row justify-content-center">
+          <div id="green" class="btn green">
+          </div>
+          <div id="red" class="btn red">
           </div>
         </div>
+
+        <div class="row justify-content-center">
+
+          <div id="orange" class="btn orange">
+
+          </div>
+          <div id="blue" class="btn blue">
+
+          </div>
+
+        </div>
+
       </div>
+
+
     </div>
   </section>
   <!-- carousel  -->
@@ -153,6 +187,7 @@
   <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js" integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1" crossorigin="anonymous"></script>
   <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js" integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM" crossorigin="anonymous"></script>
   <!-- <script src="./javascript/solutions.js" charset="utf-8"></script> -->
+  <script type="text/javascript" src="game.js" charset="utf-8"></script>
 </body>
 
 </html>

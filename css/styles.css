@@ -151,18 +151,30 @@ h2 {
 /* solutionsPage start */
 .solutions-page2 {
   background-color: #57886C;
-  padding: 10% 10%;
+  padding: 6% 10%;
+  font-family: 'Darker Grotesque', sans-serif;
+  color: #fff;
 }
-.solutions-tree {
-  width: 30%;
-  padding-top: 3%;
+h1 .solutions-page2{
+  font-weight: 200;
+}
+.solutions-tree-left {
+  width: 1000px;
+  padding-top: 6%;
+  text-align: right;
+}
+.solutions-tree-right {
+  padding-top: 6%;
+  text-align: left;
+  width: .7px;
 }
 .solutions-title {
   color: #4E5340;
-  font-family: 'Darker Grotesque', sans-serif;
-  font-size: 360%;
-  margin-bottom: 5%;
-  font-weight: bold;
+  font-family: 'Mr De Haviland', cursive;
+  font-size: 480%;
+  margin-top: 20%;
+  margin-bottom: 0;
+
 }
 .subSolutions-title{
   color: #fff;
@@ -195,13 +207,77 @@ h2 {
 }
 /* solutions-page -4 */
 .solutions-page-5{
-  background-color: #AD7A99;
-  padding: 10% 10%;
+  background-color: #f9f6f2;
+  padding-bottom: 2%;
 }
 
 
 /* solutions-page -1 */
 .solutions-page-1{
   background-color: #f9f6f2;
-  padding: 10% 10%;
+  padding-top: 10%;
+  padding-bottom: 0;
+  padding-left: 10%;
+  padding-right: 10%;
+}
+.subSolutions-title{
+  padding-top: 30px;
+}
+/* simon game */
+.simon-game {
+  text-align: center;
+}
+
+#level-title {
+  font-family: 'Darker Grotesque', sans-serif;
+  font-size: 4rem;
+  font-weight: bolder;
+  margin:  3% 5%;
+  color: #57886C;
+}
+
+.container {
+  display: block;
+  width: 50%;
+  margin: auto;
+
+}
+
+.btn {
+  margin: 25px;
+  display: inline-block;
+  height: 200px;
+  width: 200px;
+  border-radius: 20%;
+}
+
+.game-over {
+  background-color: red;
+  opacity: 0.8;
+}
+
+#red {
+  background-color: red !important;
+  color: red;
+}
+
+.green {
+  background-color: green;
+  color: green;
+}
+
+.blue {
+  background-color: blue;
+}
+
+.orange {
+  background-color: orange;
+}
+
+.pressed {
+  box-shadow: 0 0 20px white;
+  background-color: grey;
+}
+.row{
+  text-align: center;
 }
