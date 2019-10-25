@@ -151,7 +151,7 @@ h2 {
 /* solutionsPage start */
 .solutions-page2 {
   background-color: #57886C;
-  padding: 6% 10%;
+  padding: 2% 2%;
   font-family: 'Darker Grotesque', sans-serif;
   color: #fff;
 }
@@ -280,4 +280,7 @@ h1 .solutions-page2{
 }
 .row{
   text-align: center;
+}
+#carouselProjects {
+  padding: 5% 2%;
 }
