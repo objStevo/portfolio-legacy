@@ -159,19 +159,22 @@ h1 .solutions-page2{
   font-weight: 200;
 }
 .solutions-tree-left {
-  width: 1000px;
-  padding-top: 6%;
   text-align: right;
+  padding-left: 0;
+  padding-right: 0;
 }
 .solutions-tree-right {
-  padding-top: 6%;
   text-align: left;
-  width: .7px;
+  padding-left: 0;
+  padding-right: 0;
+}
+.solutions-tree{
+  padding-top: 105%;
 }
 .solutions-title {
   color: #4E5340;
   font-family: 'Mr De Haviland', cursive;
-  font-size: 480%;
+  font-size: 690%;
   margin-top: 20%;
   margin-bottom: 0;
 
@@ -188,7 +191,6 @@ h1 .solutions-page2{
   background-color: #fff;
   display: inline-block;
   text-align: center;
-  margin-left: 20%;
 }
 .suitcase-img{
   width: 20vh;
@@ -215,7 +217,7 @@ h1 .solutions-page2{
 /* solutions-page -1 */
 .solutions-page-1{
   background-color: #f9f6f2;
-  padding-top: 10%;
+  padding-top: 5%;
   padding-bottom: 0;
   padding-left: 10%;
   padding-right: 10%;
@@ -281,6 +283,6 @@ h1 .solutions-page2{
 .row{
   text-align: center;
 }
-#carouselProjects {
-  padding: 5% 2%;
+.carousel-content{
+  padding: 5% 12%;
 }
