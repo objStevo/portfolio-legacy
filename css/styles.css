@@ -79,9 +79,10 @@ h2 {
 .mynav {
   background-color: #f9f6f2;
   width: 100%;
-  padding-top: 0;
+  padding: 0 10%;
   text-align: center;
 }
+
 
 .navbar-brand {
   padding-top: 0;
@@ -150,10 +151,11 @@ h2 {
 /* landingPage end */
 /* solutionsPage start */
 .solutions-page2 {
-  background-color: #57886C;
-  padding: 2% 2%;
+  background-color: #3A2E39;
+  padding: 6% 2%;
   font-family: 'Darker Grotesque', sans-serif;
   color: #fff;
+  text-align: center;
 }
 h1 .solutions-page2{
   font-weight: 200;
@@ -169,7 +171,7 @@ h1 .solutions-page2{
   padding-right: 0;
 }
 .solutions-tree{
-  padding-top: 105%;
+  padding-top: 58%;
 }
 .solutions-title {
   color: #4E5340;
@@ -197,7 +199,7 @@ h1 .solutions-page2{
   height: 20vh;
 }
 /* solutions-page -3 */
-.solutions-page-3{
+.landingPage-3{
   background-color: #3A2E39;
   padding: 10% 10%;
 }
@@ -285,4 +287,8 @@ h1 .solutions-page2{
 }
 .carousel-content{
   padding: 5% 12%;
+}
+
+.logo{
+  margin: 0 2%;
 }
